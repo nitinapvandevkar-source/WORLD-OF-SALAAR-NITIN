@@ -1931,3 +1931,19 @@ body:has(.seal-transition) .home-seal-watermark {
     transform: scale(1.32);
   }
 }
+
+
+/* THIRD STORY + POWER PANELS — keep the new image panels completely borderless. */
+.story-world-panel-third,
+.power-world-panel-third,
+.story-world-panel-third .world-explore-background,
+.power-world-panel-third .world-explore-background {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.story-world-panel-third,
+.power-world-panel-third {
+  margin-top: 34px;
+}
