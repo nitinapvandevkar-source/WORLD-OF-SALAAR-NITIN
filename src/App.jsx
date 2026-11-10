@@ -917,7 +917,7 @@ function InformationPage({ type, number }) {
             <section className="world-explore-panel power-world-panel">
               <img
                 className="world-explore-background"
-                src={getImage("power/power-bg-03.jpg")}
+                src={getImage("power/salaar.jpg")}
                 alt="The power struggle in Salaar: Part 1"
               />
               <div className="world-explore-shade" />
