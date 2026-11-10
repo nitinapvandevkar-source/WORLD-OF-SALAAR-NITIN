@@ -1296,9 +1296,21 @@ function Footer() {
       <div className="footer-brand">SALAAR</div>
       <p>PART 1 — CEASEFIRE</p>
       <span>THE KINGDOM NEVER FORGETS.</span>
+
+      <div className="footer-creator">
+        <p>CREATED & DEVELOPED BY</p>
+        <h3>NITIN DEVKAR</h3>
+        <span>WORLD OF SALAAR</span>
+      </div>
+
+      <p className="footer-disclaimer">
+        An independent fan-made website dedicated to Salaar.
+        Not affiliated with the film's official creators.
+      </p>
     </footer>
   );
 }
+
 
 /* =========================================================
    WEBSITE LAYOUT
